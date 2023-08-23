@@ -3,7 +3,9 @@
 <img src="https://raster.shields.io/badge/status-maintaining-green.png">
 <img align="center" src="https://raw.githubusercontent.com/MISHA35656/wildberries_pc/main/favicon.ico" width="512" height="512">
 Wildberries PC это **неофициальная** программа для прямого доступа к Wildberries
+
 ## Установка
+
 ### Для Windows
 Скачайте скомпилированную для Windows версию <a href="https://disk.yandex.ru/d/MDh5y_q0NndYqw">здесь</a>. Её не нужно устанавливать, просто скопируйте в любую папку и введите:
 '''batch
@@ -23,7 +25,9 @@ pip install -r requirements.txt
 python3 main.py by
 '''
 Замените by на нужную страну. ru откроет Wildberries.ru, by - Wildberries.by
+
 #### Компиляция из исходного кода
+
 Данную программу можно компилировать для Windows с помощью pyinstaller. Для этого вам нужно установить pyinstaller ввести в терминал следующее (работает на обоих системах):
 '''bash
 pyinstaller --noconfirm --onefile --windowed --icon "/home/turbo_mishka/wildberries_pc/favicon.ico"  "/home/turbo_mishka/wildberries_pc/main.py"
